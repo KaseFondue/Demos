@@ -26,6 +26,7 @@ while len(sample) < 100:
             sample.append(stocklist.loc[rdm,'ts_code'])
             print('Sampling...',len(sample)/100*100,'%')
 #计算模块
+
 df_record = pd.DataFrame()
 m = 0
 for z in sample:
